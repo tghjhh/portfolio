@@ -1,8 +1,9 @@
+/*index or all*/
+
 body{
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Indie Flower', cursive;
     margin:0px;
     background:black;
-    border:15px solid blue;
 }
 
 a{
@@ -48,10 +49,9 @@ button{
     justify-content:space-around;
 }
 
-
-.headshot{
-    width:30%;
-   
+.footer{
+    margin:0 auto;
+    width:40%;
 }
 
 .mid{
@@ -62,8 +62,41 @@ button{
     margin:15px;
 }
 
+#spooky{
+    width:60%;
+    margin: 30px auto;
+}
+
+h1{
+    margin:0 auto;
+}
+
 .contact{
     justify-content:space-between;
     margin:0 auto;
     width:20%;
+    border-bottom:5px solid grey;
+}
+
+.home{
+    font-size:30px;
+}
+
+/*portfolio*/
+
+.portfoliohead{
+    color:white;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+
+/*aboutme*/
+
+.aboutme {
+    display:flex;
+    flex-direction:row;
+    font-size:30px;
+    color:white;
+    align-items:center;
 }
